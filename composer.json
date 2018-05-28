@@ -1,0 +1,19 @@
+{
+  "name": "havok1305/tdd-php",
+  "description": "Testando TDD com PHP",
+  "type": "project",
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "autoload": {
+    "classmap": [
+      "src/"
+    ]
+  },
+  "scripts": {
+    "phpunit": "./vendor/bin/phpunit",
+    "phpunitversion": "phpunit --version",
+    "test": "phpunit --colors=always"
+  }
+}
